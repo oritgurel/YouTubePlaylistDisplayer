@@ -6,7 +6,7 @@ import android.webkit.WebView;
 
 public class MainActivity extends AppCompatActivity {
 
-    String url = "http://www.leado.co.il/clients/shahak/json.json";
+    public final static String url = "http://www.leado.co.il/clients/shahak/json.json";
     WebView playlistView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
