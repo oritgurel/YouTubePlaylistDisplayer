@@ -1,13 +1,12 @@
 
 package com.example.user.youtubeapi.YouTubeApi;
 
-import java.util.List;
-
-import com.example.user.youtubeapi.YouTubeApi.Playlist;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class YouTubeApi {
+import java.util.List;
+
+public class YouTubeApiResponse {
 
     @SerializedName("Playlists")
     @Expose
